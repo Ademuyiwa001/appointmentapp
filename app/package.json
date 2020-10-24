@@ -16,6 +16,17 @@
     "npm": "6.14.8"
   },
 
+  {
+  "buildpacks": [
+    {
+      "url": "https://github.com/Ademuyiwa001/appointmentapp"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
+
   "private": true,
   "dependencies": {
     "@angular/cli": "~10.1.6",
