@@ -13,7 +13,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-MongoClient.connect(`mongodb+srv://admin-muyiwa:aderocks@5000@cluster0.lypfi.mongodb.net/appointments-app`, {
+MongoClient.connect(`mongodb://${config.dbHost}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
